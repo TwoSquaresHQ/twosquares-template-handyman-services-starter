@@ -2,6 +2,8 @@
 
 A Vercel-ready Next.js website template for handyman, property maintenance, and local trades businesses that need a clean lead-generation website with a premium feel.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTwoSquaresHQ%2Ftwosquares-template-handyman-services-starter&project-name=handyman-services-starter&repository-name=handyman-services-starter&env=NEXT_PUBLIC_SITE_URL)
+
 ## What This Template Is For
 
 This starter is designed for:
@@ -71,6 +73,8 @@ pnpm dev
 - set `NEXT_PUBLIC_SITE_URL`
 - deploy
 
+Or use the Deploy with Vercel button above for a one-click setup flow.
+
 ## Environment Variables
 
 See `.env.example`.
@@ -98,4 +102,3 @@ Licensed under Apache-2.0. See [LICENSE](./LICENSE).
 If you want this template customized with your branding, content, forms, SEO structure, and deployment setup, contact TwoSquares:
 
 https://twosquares.co.uk/contact
-
