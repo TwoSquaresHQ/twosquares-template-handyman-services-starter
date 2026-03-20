@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { getSiteUrl } from "@/lib/site-url"
+import { getSiteUrl } from "../lib/site-url"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getSiteUrl()
@@ -11,4 +11,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/quote`, lastModified: now },
   ]
 }
-
