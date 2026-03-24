@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "North & Form | Handyman Services",
   description:
     "A premium handyman and property maintenance website template built for local lead generation, mobile quote requests, and clean service-page SEO structure.",
+  keywords: ["handyman website template", "local handyman website", "handyman lead generation website", "trades website template", "vercel handyman template"],
   openGraph: {
     title: "North & Form | Handyman Services",
     description:

@@ -2,16 +2,6 @@
 
 A Vercel-ready Next.js website template for handyman, property maintenance, and local trades businesses that need a clean lead-generation website with a premium feel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTwoSquaresHQ%2Ftwosquares-template-handyman-services-starter&project-name=handyman-services-starter&repository-name=handyman-services-starter&env=NEXT_PUBLIC_SITE_URL)
-
-## Template Family
-
-This repo is one variant in the TwoSquares handyman website template family.
-
-Browse the main comparison and preview page:
-
-https://twosquares.co.uk/templates/handyman-website-template
-
 ## What This Template Is For
 
 This starter is designed for:
@@ -61,7 +51,7 @@ This starter is structured to make expansion easier:
 - add testimonials and review schema
 - add stronger internal linking over time
 
-## Deploy On Vercel
+## Getting Started
 
 1. Install dependencies:
 
@@ -75,13 +65,19 @@ pnpm install
 pnpm dev
 ```
 
-3. Deploy to Vercel:
+3. Build for production:
 
-- import the repo into Vercel
+```bash
+pnpm build
+```
+
+## Deploy On Vercel
+
+- import this repository into Vercel
 - set `NEXT_PUBLIC_SITE_URL`
 - deploy
 
-Or use the Deploy with Vercel button above for a one-click setup flow.
+If you want a one-click Vercel button, add one after publishing this repo to your own GitHub organization so the repository URL points at your canonical source.
 
 ## Environment Variables
 
@@ -91,9 +87,18 @@ Required:
 
 - `NEXT_PUBLIC_SITE_URL`
 
+## Forking And Rebranding
+
+Before launching publicly, update:
+
+- site name, copy, phone numbers, and email addresses
+- metadata in `app/layout.tsx`
+- any placeholder service areas and trust content
+- branding assets, colors, and imagery
+
 ## Attribution
 
-This template ships with the footer credit:
+This template keeps the footer credit:
 
 `Website Developed by TwoSquares`
 
@@ -104,9 +109,3 @@ linked to:
 ## License
 
 Licensed under Apache-2.0. See [LICENSE](./LICENSE).
-
-## Need A Done-For-You Version?
-
-If you want this template customized with your branding, content, forms, SEO structure, and deployment setup, contact TwoSquares:
-
-https://twosquares.co.uk/contact
